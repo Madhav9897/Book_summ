@@ -1,0 +1,68 @@
+.car{
+
+  margin:auto;
+  margin-top: 2%;
+  width: 100%;
+  padding: 10px;
+}
+img.blur{
+    float: left;
+
+    height: 600px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    opacity: 0.1;
+}
+.centered {
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  text-align: center;
+  font-size: 2rem;
+  width: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#genre{
+  background-color: #faf3f3;
+  font-family: 'Montserrat', sans-serif;
+
+  text-align: center;
+  margin:auto;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  width: 100%;
+}
+.Genre{
+  width:150px;
+
+}
+
+h2{
+  font-size:3rem;
+  margin:50px;
+}
+
+.rated{
+  padding-top: 50px;
+  width:200px;
+}
+
+#top-container{
+  background-color: #;
+}
+
+#top_rated_container{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ef8172;
+  padding: 100px 100px;
+  text-align: center;
+}
+
+.top_rated_h{
+  color:white;
+  font-size: 1.5rem;
+}
