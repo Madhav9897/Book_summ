@@ -1,3 +1,4 @@
+
 .car{
 
   margin:auto;
@@ -5,6 +6,7 @@
   width: 100%;
   padding: 10px;
 }
+
 img.blur{
     float: left;
 
@@ -41,18 +43,59 @@ img.blur{
 
 }
 
+h1,h2,h3,h4{
+  font-family: 'Montserrat', sans-serif;
+}
+
 h2{
   font-size:3rem;
   margin:50px;
 }
+
+#first_section{
+  background-color: #faf3f3;
+  margin-top: 5%;
+  padding-top: 10%;
+}
+
+#first_sticker{
+  width:100%;
+  float: right;
+}
+
+#footer{
+  text-align: center;
+  padding:20px;
+}
+
+form{
+  position: -webkit-sticky; /* Safari & IE */
+  position: sticky;
+  top: 0;
+  width:20%;
+}
+
+#nav_bar{
+  background-image: url("../images/nav.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 
 .rated{
   padding-top: 50px;
   width:200px;
 }
 
-#top-container{
-  background-color: #;
+.sticky{
+  position: fixed;
+ top: 0;
+ width: 100%;
+ padding-top: 60px;
 }
 
 #top_rated_container{
