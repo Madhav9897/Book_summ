@@ -1,4 +1,13 @@
 
+a{
+  text-decoration: none;
+  color:grey;
+}
+
+.book{
+  text-align: center;
+}
+
 .car{
 
   margin:auto;
@@ -17,16 +26,7 @@ img.blur{
     object-fit: cover;
     opacity: 0.1;
 }
-.centered {
-  font-family: 'Montserrat', sans-serif;
-  position: absolute;
-  text-align: center;
-  font-size: 2rem;
-  width: 80%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+
 
 #genre{
   background-color: #faf3f3;
@@ -38,6 +38,28 @@ img.blur{
   padding-top: 100px;
   width: 100%;
 }
+.genre_page{
+  font-family:'Montserrat', sans-serif;
+  line-height: 1.6;
+    padding:0 10%;
+}
+
+.genre_whole h1{
+  font-size: 3rem;
+  padding-top: 50px;
+}
+
+.genre_whole p{
+  padding-top: 10px;
+  font-size: 1.6rem;
+  line-height: 2;
+}
+
+.genre_whole{
+
+  background-color: #fdfaf6;
+}
+
 .Genre{
   width:150px;
 
@@ -75,6 +97,11 @@ form{
   width:20%;
 }
 
+
+#more{
+  display: none;
+}
+
 #nav_bar{
   background-image: url("../images/nav.jpg");
   min-height: 500px;
@@ -84,7 +111,10 @@ form{
   background-size: cover;
 }
 
-
+.profile{
+  padding-top:50px;
+  width:200px;
+}
 
 .rated{
   padding-top: 50px;
@@ -96,6 +126,17 @@ form{
  top: 0;
  width: 100%;
  padding-top: 60px;
+}
+
+#top-container{
+  min-height: 600px;
+  padding:100px;
+  font-size: 2rem;
+  line-height: 1.6;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background-color: #ff5e78;
+  color: white;
 }
 
 #top_rated_container{
