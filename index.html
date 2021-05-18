@@ -14,7 +14,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
 <!--<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>-->
 <script src="index.js"></script>
-<link rel="stylesheet" href="public/css/styles.css">
+<link rel="stylesheet" href="/css/styles.css">
   </head>
   <body>
 
@@ -32,18 +32,6 @@
         <li class="nav-item">
           <a class="nav-link" href="#genre">Genre</a>
         </li>
-        <!--
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>-->
         <li class="nav-item">
           <a class="nav-link" href="#top_rated_container" tabindex="-1">Top Rated</a>
         </li>
@@ -63,7 +51,7 @@
         <h1 style = "font-size:3rem;">Awe_Summ</h1>
       </div>
       <div class="col-md-6">
-          <img id = "first_sticker" src="public/images/first.png" alt="">
+          <img id = "first_sticker" src="/images/first.png" alt="">
       </div>
     </div>
 
@@ -71,27 +59,25 @@
 
 </section>
 
-  <section class = "container-fluid" id = "top-container">
+  <section class = "container-fluid centered" id = "top-container">
 
       <div id="carouselExampleControls" class="car carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval = "3000">
-      <img src="public/images/ani1 (1).jpg" class="d-block w-100 blur" alt="ani1">
-      <div class="centered">
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-      </div>
+      <p>“It's not what you will get out of the books that is so enriching -
+         it is what the books will get out of you that will ultimately change your life” - Robin Sharma</p>
+      <img class = "profile" src="/images/robin.png" alt="">
     </div>
     <div class="carousel-item " data-bs-interval = "3000">
-      <img src="public/images/ani1 (2).jpg" class="d-block w-100 blur" alt="ani2">
-      <div class="centered">
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-      </div>
+
+      <p>“Any fool can criticize, complain, and condemn—and most fools do.
+         But it takes character and self-control to be understanding and forgiving.” ― Dale Carnegie</p>
+  <img class = "profile" src="/images/dale.png" alt="">
     </div>
-    <div class="carousel-item" data-bs-interval = "3000">
-      <img src="public/images/ani1 (3).jpg" class="d-block w-100 blur" alt="ani3">
-      <div class="centered">
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-      </div>
+    <div class="carousel-item"  data-bs-interval = "3000">
+      <p>“Life is essentially an endless series of problems.
+   The solution to one problem is merely the creation of another.” ― Mark Manson</p>
+      <img class = "profile" src="/images/mark.png" alt="">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -111,18 +97,27 @@
 
   <div style = "padding-top:40px"class="row">
     <div class="col-lg-4 hmt">
-      <img class = "Genre" src="public/images/happy.png"  alt="">
+      <a href="happy">
+        <img class = "Genre" src="/images/happy.png"  alt="">
+      </a>
+
       <h2>Happiness</h2>
     </div>
 
     <div class="col-lg-4 hmt">
-      <img class = "Genre" src="public/images/product.png" alt="">
+      <a href="product">
+      <img class = "Genre" src="/images/product.png" alt="">
+    </a>
       <h2>Productivity</h2>
     </div>
 
     <div class="col-lg-4 hmt">
-      <img class = "Genre" src="public/images/psych.png" alt="">
+      <a href="psycho">
+        <img class = "Genre" src="/images/psych.png" alt="">
+
+      </a>
       <h2>Psychology</h2>
+
     </div>
   </div>
 
@@ -134,17 +129,17 @@
 
   <div style = "padding-top:40px"class="row">
     <div class="col-lg-4 hmt">
-      <img class = "rated" src="public/images/think.jpg"  alt="">
+      <img class = "rated" src="/images/think.jpg"  alt="">
       <h2 class = "top_rated_h">Thinking Fast And Slow</h2>
     </div>
 
     <div class="col-lg-4 hmt">
-      <img class = "rated" src="public/images/fast.jpg" alt="">
+      <img class = "rated" src="/images/fast.jpg" alt="">
       <h2 class = "top_rated_h">Think And Grow Rich</h2>
     </div>
 
     <div class="col-lg-4 hmt">
-      <img class = "rated" src="public/images/sap.jpg" alt="">
+      <img class = "rated" src="/images/sap.jpg" alt="">
       <h2 class = "top_rated_h">Sapiens</h2>
     </div>
   </div>
@@ -157,9 +152,9 @@
 
 <footer id = "footer">
 
-<img style="padding:20px;" src="public/images/twitter_icon.png" alt="">
-<img style="padding:20px;" src="public/images/fb_icon.png" alt="">
-<img style="padding:20px;" src="public/images/insta_icon.png" alt="">
+<img style="padding:20px;" src="/images/twitter_icon.png" alt="">
+<img style="padding:20px;" src="/images/fb_icon.png" alt="">
+<img style="padding:20px;" src="/images/insta_icon.png" alt="">
   <p style="font-size:.8rem;">© Copyright 2018 Awe_Summ</p>
 
 </footer>
